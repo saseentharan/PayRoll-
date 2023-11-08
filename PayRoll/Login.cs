@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace PayRollManagement
 {
-    internal class Login
+    internal class Login:ILogin
     {
         public string username;
         public string pwd;
